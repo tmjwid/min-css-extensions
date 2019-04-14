@@ -1,0 +1,170 @@
+/*
+ * MIT License
+ *
+ * Copyright (c) 2019 Thomas Widdowson
+ *
+ * Revision History:
+ *     Initial:        2019/04/14        Thomas Widdowson
+ */
+
+/* elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 1% 0;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.75em;
+}
+
+h6 {
+    font-size: 0.5em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* buttons */
+
+.btn-sm {
+    font-size: 1em;
+}
+
+/* nav */
+
+.nav.light,
+.nav.light .current,
+.nav.light a:hover,
+.btn.btn-close {
+    background: inherit;
+    color: #000;
+}
+
+.nav.light a {
+    color: #000;
+}
+
+.nav .container .links-right {
+    top: 5px;
+    position: relative;
+    float: right;
+}
+
+.nav.twoline {
+    height: 50px;
+}
+
+/* messages */
+
+.msg {
+    text-align: center;
+    padding: 10px 0px;
+    border-left: unset;
+    border-bottom: 5px solid;
+    margin-bottom: 5px;
+}
+
+.msg.error {
+    border-color: #db2241;
+    background-color: #f73859;
+}
+
+.msg.info {
+    border-color: #59a4fa;
+    background-color: #7bb9ff;
+}
+
+.msg.warning {
+    border-color: #e6e628;
+    background-color: #f7f76f;
+}
+
+.msg.success {
+    border-color: #46e688;
+    background-color: #75f1a9;
+}
+
+/* cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 2px solid #ddd;
+    margin: 5px;
+}
+
+.card .title {
+    font-weight: bolder;
+}
+
+.card .date {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* media-queries */
+
+@media (min-width:871px) {
+    .hidden-d {
+        display: none;
+    }
+}
+
+@media (max-width: 870px) {
+    .hidden-t {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav div:before {
+        top: 15px;
+        /* Hamburger menu icon always seemed off, remove if you don't agree*/
+    }
+
+    .nav .container div::before {
+        content: none;
+    }
+
+    .nav.light div::before {
+        background: #fff;
+    }
+
+    .nav .links-right div:before {
+        content: none;
+    }
+
+    .nav .container .links-right {
+        float: unset;
+        width: 80%;
+    }
+
+    .nav.twoline {
+        height: 24px;
+    }
+
+    .nav.twoline:active,
+    .nav.twoline:focus {
+        height: auto
+    }
+
+    .hidden-m {
+        display: none;
+    }
+}
