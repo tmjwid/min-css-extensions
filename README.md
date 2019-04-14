@@ -47,7 +47,7 @@ To not show an element based on the size of device, you can use the following cl
 
 ## Navigation
 ### Light menu
-The light menu is very simple to activate, simplely add the class `light` to the nav element like so.
+The light menu is very simple to activate, simply add the class `light` to the nav element like so.
 
 ```<nav class="nav light" tabindex="-1" onclick="this.focus()">```
 
