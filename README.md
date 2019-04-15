@@ -125,13 +125,15 @@ All messages use basic syntax for the message and an overload for the type. Here
 
 Cards are a way to showcase something important, or for user sections. The following html produces a card. The classes `title` and `date` provide additional styling. 
 ```
-<div class="col c3 card">
-    <div class="col c12">
-        <img src="https://placeimg.com/480/410/tech/sepia" />
+<div class="col c3">
+  	<div class="card">
+    	<div class="col c12">
+        	<img src="https://placeimg.com/480/410/tech/sepia" />
+    	</div>
+    	<h2 class="title">TITLE</h2>
+    	<span class="date">20-02-2019</span>
+    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
     </div>
-    <h2 class="title">TITLE</h2>
-    <span class="date">20-02-2019</span>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>                    
 </div>
 ```
 
