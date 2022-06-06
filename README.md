@@ -138,4 +138,4 @@ Cards are a way to showcase something important, or for user sections. The follo
 ```
 
 
-I hope you like these additons, please let me know of any issues in the issue tracker and you can contact me [here](mailto:hello@mandark.org). Very welcome to pr's with additional fixes and features! 
+I hope you like these additons, please let me know of any issues in the issue tracker. Very welcome to pr's with additional fixes and features! 
